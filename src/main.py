@@ -1,3 +1,5 @@
+import math
+
 print('hola mundo')
 
 def suma(a,b):
@@ -14,3 +16,6 @@ def dividir(a,b):
 
 def potencia(a, b):
     return a ** b
+
+def raiz_cuadrada(a):
+    return math.sqrt(a)
